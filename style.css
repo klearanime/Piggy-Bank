@@ -1,0 +1,98 @@
+body {
+    width: ;
+    min-height: 70vh;
+    background-color: #010a1c;
+}
+
+.top-box {
+    background-color: #013766;
+}
+
+.app {
+    min-height: 50vh;
+    display: flex;
+    margin-top: 15%;
+    justify-content: center;
+    align-items: center;
+    background-color: #010a1c;
+}
+
+#calculations{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#radios {
+    justify-content: center;
+    background-color: #490009;
+}
+
+div.operations {
+    cursor: grab;
+    justify-content: center;
+
+}
+
+input[type=radio] + label1 {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: gold;
+}
+
+input[type=radio] + label {
+    width: 45px;
+    height: 25px;
+    background-color: rgb(140, 204, 140);
+}
+
+#pig {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin-left: 35%;  
+}
+
+button.calculate-plus {
+    background-color: rgb(2, 90, 2);
+    color: white;   
+}
+
+button.calculate-minus {
+    background-color: #ac0e28;
+    color: white;
+}
+
+.message {
+    min-height: 30vh;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: darkred;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 200;
+    font-size: 1em;
+    color: #fbfcf9;
+}
+
+#sendButton {
+    background-color:#013766;
+    color: #bc4558;
+    border: none;
+}
+#sendButton:hover {
+    opacity: 50%;
+}
+
+#messageOut {
+    color: #1088a0;
+}
+
+#messageIn {
+    color: rgb(245, 195, 195);
+    background-color:  #013766;
+}
