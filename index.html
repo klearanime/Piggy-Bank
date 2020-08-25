@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piggy Bank</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="app">
+        <div class="top-box">
+            <input id="total"/>
+        <div id="calculations">
+            <button type="button" onclick="displayRadioValue()" class="calculate-plus">SAVE</button>
+            <button type="button" onclick="displayRadioValue()" class="calculate-minus">SPEND</button>
+        </div>    
+            <div id="radios">
+                <input type="radio" value=".01" id="penny"><label1 for="penny">1¢</label1>
+                <input type="radio" value=".05" id="nickel"><label1 for="nickel">5¢</label1>
+                <input type="radio" value=".10" id="dime"><label1 for="dime">10¢</label1>
+                <input type="radio" value=".25" id="quarter"><label1 for="quarter">25¢</label1>
+                <input type="radio" value="1.00" id="one-dollar"><label for="one-dollar">$1</label>
+                <input type="radio" value="10.00" id="ten-dollar"><label for="ten-dollar">$10</label>
+                <input type="radio" value="20.00" id="twenty-dollar"><label for="twenty-dollar">$20</label>
+                <input type="radio" value="50.00" id="fifty-dollar"><label for="fifty-dollar">$50</label>
+                <input type="radio" value="100.00" id="hundred-dollar"><label for="hundred-dollar">$100</label>
+                <img src="goldenpig.jpeg" id="pig">
+            </div>
+        <div class="message">
+            <h1>transaction details</h1>
+            <input type="text" id="messageIn"></input>
+            <button id="sendButton">enter</button>
+            <h1 id="messageOut"></h1>
+        </div>    
+        </div>
+    </div>
+    <script src="main-loops.js"></script>
+</body>
+</html>
